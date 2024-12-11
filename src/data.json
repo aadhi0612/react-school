@@ -1,0 +1,97 @@
+{
+    "form": {
+      "initialValues": {
+        "name": "",
+        "gender": "",
+        "email": "",
+        "password": "",
+        "confirmPassword": "",
+        "branch": "CSE"
+      },
+      "validationSchema": {
+        "gender": {
+          "type": "string",
+          "required": "Gender is required."
+        },
+        "email": {
+          "type": "string",
+          "required": "Email is required.",
+          "email": "Invalid email format",
+          "uniqueEmail": "This email is already taken."
+        },
+        "password": {
+          "type": "string",
+          "required": "Password is required.",
+          "minLength": {
+            "value": 8,
+            "message": "Password must have at least 8 characters."
+          },
+          "pattern": {
+            "value": "^[a-zA-Z0-9!@#$%^&*]{8,16}$",
+            "message": "Password must only contain letters, numbers, or !@#$%^&*."
+          }
+        },
+        "confirmPassword": {
+          "type": "string",
+          "required": "Please confirm your password.",
+          "oneOf": {
+            "value": ["password"],
+            "message": "Passwords do not match!"
+          }
+        },
+        "branch": {
+          "type": "string",
+          "required": "Branch is required."
+        }
+      },
+      "formData": [
+        {
+          "name": "",
+          "gender": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "branch": ""
+        },
+        {
+          "name": "",
+          "gender": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "branch": ""
+        }
+      ]
+    },
+    "formState": {
+      "isUpdating": false,
+      "updateIndex": null,
+      "isDeleting": false,
+      "deleteIndex": null,
+      "showPassword": false,
+      "showConfirmPassword": false
+    },
+    "actions": {
+      "handleUpdate": {
+        "description": "Handles the update action to modify existing form data",
+        "exampleInput": {
+          "index": 0,
+          "updatedData": {
+            "name": "",
+            "gender": "",
+            "email": "",
+            "password": "",
+            "confirmPassword": "",
+            "branch": ""
+          }
+        }
+      },
+      "handleDelete": {
+        "description": "Handles the delete action to remove existing form data",
+        "exampleInput": {
+          "index": 1
+        }
+      }
+    }
+  }
+  

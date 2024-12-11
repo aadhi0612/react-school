@@ -1,0 +1,477 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;  
+}
+.info img {
+  margin-right: 30px;
+  width: 30%;
+  height: 20%;
+  float: left;
+  box-shadow: #007bff;
+  display: block;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.para p {
+  font-size: 15px; /* Increase the font size for readability */ /* Add some space between paragraphs */
+  color: #0b0b0b; /* Dark gray color for text */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Use a clean sans-serif font */
+  font-weight: 200;
+  padding-left: 90px;
+  padding-top:10px;
+  padding-right: 90px;
+  margin-left: 10px;
+  /* Regular font weight */
+}
+/* Background for login page */
+.bg-login {
+  background-image: url("bgform.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  text-decoration: none;
+}
+
+/* Background for MAIN PAGE */
+.bg-main {
+  background-color:white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  overflow: hidden;
+}
+
+/* Form styling */
+.formformat {
+  background-color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.collapsenavbar-collapse {
+  color: rgb(67, 67, 67);
+}
+/* Additional Styles */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #1d40a9; 
+}
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.bg-light {
+  background-color: none;
+}
+button {
+  background-color: #4c53af;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 8px;
+}
+
+button:hover {
+  background-color: #455fa0;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+.mb-4 {
+  color: #1d40a9;
+}
+.inform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("C:\Users\CHIKKU\Downloads\react\my-app\src\pages\co.avif");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.details {
+  text-align: center;
+  padding: 20px;
+}
+h1.details {
+  text-align: center;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #333; /* Dark gray text */
+  transition: color 0.2s ease;
+}
+
+.contact-link:hover {
+  color: #007bff; /* Blue text on hover */
+}
+
+.contact-link:active {
+  color: #0069d9; /* Darker blue text on active */
+}
+
+b {
+  font-size: 24px; /* Larger font size for bold text */
+  font-weight: bold;
+  letter-spacing: 2px; /* Slightly wider spacing */
+}
+div.form-check
+{
+  padding-left: 40px;
+}
+
+div.disk {
+  background-image: url("C:\Users\CHIKKU\Downloads\react\my-app\hi.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.news h1 {
+  padding-top: 60px;
+  color: #00698f;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.news p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+  background-color: #070f45;
+  display: inline-block;
+  width:100%;
+  overflow: hidden;
+  height:70px;
+  --bs-navbar-brand-hover-color: rgb(233, 212, 223);
+}
+.navbar-brand {
+  padding-left: 10px;
+}
+.nav-item {
+  color: white;
+}
+nav.navbar-brand {
+  color: white;
+  --bs-navbar-brand-hover-color: rgb(120, 119, 119);
+}
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+  }
+  .nav li {
+    margin-bottom: 10px;
+  }
+}
+.navigation {
+  color: hsl(200, 60%, 99%); /* Default link color */
+  text-decoration: none;
+  transition: color 0.2s ease;
+  padding: 10px;
+}
+.signup {
+  text-align: center; /* Center the button horizontally */
+  margin-top: 20px; /* Add some space above the button */
+}
+
+.signup button {
+  background-color: #007bff;
+  color: #ffffff; /* White text color */
+  border: none; /* Remove the default border */ /* Add some padding to make the button larger */
+  font-size: 16px; /* Increase the font size */
+  cursor: pointer; /* Change the cursor to a pointing hand */
+  border-radius: 5px;
+  width: 100px; /* Add a slight rounded corner effect */
+ float: left;
+ margin-left:40px;
+  
+}
+
+.signup button:hover {
+  background-color: #0069d9; /* Darker blue background color on hover */
+}
+.child {
+  max-width: 800px; /* Set a maximum width for the content */
+  margin: 40px auto;
+  margin-top: 80px; /* Center the content horizontally */
+  padding-top: 50px; /* Add some padding around the content */
+  background-color:#9c62b131;
+   /* Light gray background color */
+   /* Gray border */
+/* Rounded corner effect */ /* Add a subtle shadow effect */
+}
+
+.child h1 {
+  color: #782072cf; /* Darker text color */
+  font-weight: bold; /* Bold font weight */
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif; /* Add some space below the heading */
+}
+
+.child h4 {
+  color: #a80717; /* Medium gray text color */
+  font-weight: bold; /* Bold font weight */
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Add some space above the heading */
+}
+
+.child img {
+  width: 80%; /* Make the image full-width */
+  height: 190px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the entire area */ /* Rounded corner effect */
+  margin: 20px 0;
+  padding-left: 150px; /* Add some space above and below the image */
+}
+
+.child p {
+  color: #171616; /* Medium gray text color */
+  font-size: 16px; /* Increase the font size */
+  line-height: 1.5; /* Add some space between lines */
+  margin-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* Add some space below the paragraph */
+}
+.mission {
+  /* light gray background */
+   /* add some padding */
+  padding-top: 20px;
+}
+
+.mission h4 {
+  color: #7a0b66; /* dark gray header */
+  margin-bottom: 10px;
+  text-align: center; /* add some space */
+}
+
+.mission p {
+  color: #0a0a0a; /* medium gray text */
+  font-size: 14px; /* readable font size */
+  line-height: 1.5; /* comfortable line height */
+  margin-bottom: 20px;
+  margin-left:250px; /* add some space */
+  float:left;
+  margin-right:250px;
+  margin-top:20px;
+}
+
+.mission p::first-letter {
+  font-weight: bold; /* make the first letter bold */
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.courses h4 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top:10px;
+  color:#7a0b66;
+}
+
+.courses h6 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.courses p {
+  margin-bottom: 20px;
+}
+
+.course-section {
+  margin-bottom: 40px;
+}
+
+.course-section:last-child {
+  margin-bottom: 0;
+}
+
+.course-section h6 {
+  margin-top: 0;
+}
+
+.course-section p {
+  margin-top: 10px;
+}
+
+.stem,
+.language,
+.business,
+.arts,
+.personal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(128, 12, 149, 0.493);
+}
+
+.stem h6,
+.language h6,
+.business h6,
+.arts h6,
+.personal h6 {
+  background-color: #69076d;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.stem p,
+.language p,
+.business p,
+.arts p,
+.personal p {
+  margin-top: 10px;
+}
+
+.stem p:first-child,
+.language p:first-child,
+.business p:first-child,
+.arts p:first-child,
+.personal p:first-child {
+  margin-top: 0;
+}
+.logini {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+  background-image:url("C:\Users\CHIKKU\Downloads\react\my-app\src\pages\log.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.login-box {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding-bottom:10%;
+  padding-left: 50px;
+  padding-top:10%;
+  padding-right:50px;
+  width: 25%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 90px;
+  font-size: 16px;
+}
+
+.form-input:focus {
+  outline: none;
+  border: none;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #3e8e41;
+}
+.loghead{
+  color:#1d40a9;
+  text-align: center;
+}
+.blog-content{
+  background-image: url("C:\Users\CHIKKU\Downloads\react\my-app\src\pages\blogi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:flex;
+  overflow:hidden;
+  min-height: 100vh;
+}
+.blog-content h1{
+  color:#880988;
+  padding-left:40%;
+  padding-top:30px;
+  padding-right:50px;
+}
+.blog-content p{
+  padding-right: 30px;
+  padding-top: 80px;
+  padding-left:40px
+}
+.foot 
+{
+  float:left;
+  color:#121213;
+}
+.vision
+{
+  margin-left:40px;
+  margin-right:30px;
+}
+.miss
+{
+  margin-left:230px;
+}

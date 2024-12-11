@@ -1,0 +1,88 @@
+body {
+    background-image: url("schoolloginpage.avif");
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:100%;
+  
+    }
+    .container {
+        width: 50%;
+        margin: 30px auto;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .container h2 
+    {
+        text-align: center;
+        margin-bottom: 20px;
+        color:rgb(76, 0, 139);
+        margin-top:20px;
+    
+    }
+    #myForm {
+        padding: 20px;
+    }
+    .form-control {
+        margin-bottom: 15px;
+    }
+    #submit {
+        /* width: 100%; */
+        margin-top: 15px;
+    }
+    #reset {
+        /* width: 100%; */
+        margin-top: 10px;
+    }
+    #myTable {
+        margin-top: 20px;
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+    @media only screen and (max-width: 768px) {
+        .container {
+            width: 90%;
+        }
+    }
+    th,td{
+        padding: 1px;
+        word-wrap: break-word;
+        max-width: 90px; 
+        font-size: 16px;
+        overflow: hidden;
+  
+    }
+    .btn{
+        width:none;
+  
+    }
+    th{
+        width: 100px;
+        overflow: hidden;
+        
+    }
+    div.mt5.container
+    {
+        overflow-x: auto;
+    }
+    div.mb-3
+    {
+        color:rgb(79, 0, 128);
+  
+    }
+    .btn-primary
+    {
+        background:rgba(115, 17, 228, 0.677);
+        --bs-btn-hover-border-color:rgba(115, 17, 228, 0.677);
+        --bs-btn-hover-bg:rgba(115, 17, 228, 0.677);
+        --bs-btn-active-border-color: rgba(115, 17, 228, 0.677);
+        --bs-btn-active-bg:rgba(115, 17, 228, 0.677);
+        --bs-btn-border-color:rgba(115, 17, 228, 0.677);
+    }       
+   div.studentTable{
+    margin-bottom:10px;
+   } 
+  
